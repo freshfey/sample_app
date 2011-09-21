@@ -5,10 +5,12 @@ gem 'rails', '3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'sqlite3', '1.3.4'
 
 group :development do 
   gem 'rspec-rails', '2.6.1'
+  gem 'pg'
+
 #  if RUBY_PLATFORM.downcase.include?("darwin")
 #    gem 'rb-fsevent'
 #    gem 'growl'
