@@ -9,10 +9,10 @@ gem 'sqlite3', '1.3.4'
 
 group :development do 
   gem 'rspec-rails', '2.6.1'
-  if RUBY_PLATFORM.downcase.include?("darwin")
-    gem 'rb-fsevent'
-    gem 'growl'
-  end
+#  if RUBY_PLATFORM.downcase.include?("darwin")
+#    gem 'rb-fsevent'
+#    gem 'growl'
+#  end
 end
 
 group :test do
