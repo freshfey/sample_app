@@ -13,12 +13,13 @@ group :development do
 #    gem 'rb-fsevent'
 #    gem 'growl'
 #  end
-  end
+end
 
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
   gem 'guard-rspec'
+  gem 'sqlite3', '1.3.4'
 end
 
 
